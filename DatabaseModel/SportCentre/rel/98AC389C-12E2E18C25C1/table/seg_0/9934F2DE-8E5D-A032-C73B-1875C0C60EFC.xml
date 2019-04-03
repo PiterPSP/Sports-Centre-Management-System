@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9934F2DE-8E5D-A032-C73B-1875C0C60EFC" name="Zajecia">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>790A8E9D-ED03-B9D4-BB87-199880E5A541</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zajec" id="4665893B-9177-3016-ACBF-7BFF1E2DF6ED">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>33F9AB2F-C679-3526-FE0E-BD2C3340E18A</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dzien_tygodnia" id="B8A5B83A-85BC-5F92-EAD0-9E2BAFC35E38">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>76F98B91-F425-0D31-BD0C-69E894A1EB11</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godzina_rozp" id="5692C83D-F655-8D19-48C4-DED9D0A84634">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>A9A1C6C3-7213-6408-180A-C0F2AE91268E</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godzina_zakon" id="3758E06C-4636-F6AC-D2A8-AF78F39FF12E">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>252E266A-7329-6C86-E4FB-A30FA142667C</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dyscyplina" id="6021558C-467C-6600-B8E4-EB2F4B18FB5F">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>39F9F9DA-C67E-706E-FEC6-F942AAD1AC27</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="91E4C4DF-6347-55B3-D882-3DF08CADA378">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>87BCB0DD-6DA7-E68A-E8B0-C6FDE479BE78</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trener_PESEL" id="9896B673-0710-488E-AB83-212AB138742A">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>F0EA5402-E2C6-DAF4-B314-DB0BC9065CD4</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B709EEE-D376-D8E0-F152-B8E1AF617DBB" referredColumn="DBA3DE7F-6164-F265-20BB-05A61CDFC6AA"/>
+</associations>
+</Column>
+<Column name="Obiekt_Sportowy_id_obiektu" id="A8DAF131-503D-4A06-FD68-21A78F43FF4F">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>20629410-71DF-3BDA-5D02-0D0CB4292E04</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E17DA1F-DFF2-F374-046C-A57550A76509" referredColumn="A679648F-8ABD-9DC2-25C9-C51FE4399F73"/>
+</associations>
+</Column>
+<Column name="Sala_Obiekt_Sportowy_id_obiektu" id="29638C19-A594-5CE3-B04F-CD2AAE452FA4">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>8E7709F6-27E6-51B7-E70C-DDC7CB7D20DC</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2864DFD1-B15A-42ED-DDDE-84E63B279968" referredColumn="73FC3829-7FD6-0263-B3FE-737165E75E0C"/>
+</associations>
+</Column>
+<Column name="Sala_nr_sali" id="0FECEB3E-576E-3218-D16E-6741BD482752">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>3FB3A13B-52AF-20E5-C8BC-0E508F005BD4</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2864DFD1-B15A-42ED-DDDE-84E63B279968" referredColumn="C9659048-B050-9569-A78C-09C8186BD04F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC211113-D90B-A52E-4050-D3DD344CD87D" name="Zajecia_PK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>11F643A5-340F-CDF7-F45E-7DB764B61C10</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4665893B-9177-3016-ACBF-7BFF1E2DF6ED"/>
+<colUsage columnID="A8DAF131-503D-4A06-FD68-21A78F43FF4F"/>
+<colUsage columnID="29638C19-A594-5CE3-B04F-CD2AAE452FA4"/>
+<colUsage columnID="0FECEB3E-576E-3218-D16E-6741BD482752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD856B6D-EAD5-58D7-E8A7-0D45D1E44B51" name="Zajecia_Sala_FK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>2EC685FB-CAEF-74CE-FF4F-B11B869501DC</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29638C19-A594-5CE3-B04F-CD2AAE452FA4"/>
+<colUsage columnID="0FECEB3E-576E-3218-D16E-6741BD482752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6D78756-A9E0-9D95-A0F0-EC70150B99C0" name="Zajecia_Trener_FK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>D4332074-728A-A7D2-3C3A-5C1565029647</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9896B673-0710-488E-AB83-212AB138742A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="710BAFBF-A696-0311-7011-D45B5847697F" name="Zajecia_Obiekt_Sportowy_FK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>3459FD1C-3179-4B3C-1E71-C74B6E98A6A4</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8DAF131-503D-4A06-FD68-21A78F43FF4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

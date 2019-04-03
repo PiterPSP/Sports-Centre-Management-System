@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" mainViewID="82A215F4-0ECF-B2C8-0F11-7B1E3FDA3BE9">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:06:04 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

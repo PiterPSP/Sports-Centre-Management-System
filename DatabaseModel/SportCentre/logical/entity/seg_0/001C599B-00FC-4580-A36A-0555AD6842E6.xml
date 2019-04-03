@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="001C599B-00FC-4580-A36A-0555AD6842E6" name="Karnet">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:52:44 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cena" id="BEB366DD-F51F-B4F3-B8A0-CC45B3901302">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:52:50 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_rozp" id="B994D7F5-A1E5-35CD-3A9F-0DB3D5FF4B40">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:53:10 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_zakon" id="3943E2E3-E388-D6E8-E2F0-D0CD32E680DF">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:53:24 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_klienta" id="C32C49C5-B787-85E1-68F4-C7D824D75EBE">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:54:14 UTC</createdTime>
+<generatorID>2FC6FECA-A386-F778-23B3-A11F6D13BC64</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<referedAttribute>95035715-CE87-A409-2F09-F6EB66909A33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zajec" id="7C576BB7-EC1D-FC93-1F57-1601733BAA5F">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:54:54 UTC</createdTime>
+<generatorID>EE640F39-3B07-C311-8445-0C0AE40DD30C</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<referedAttribute>33F9AB2F-C679-3526-FE0E-BD2C3340E18A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_obiektu" id="C4D64AAE-77CA-38B5-145E-D511B36B5206">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:11:28 UTC</createdTime>
+<generatorID>EE640F39-3B07-C311-8445-0C0AE40DD30C</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<referedAttribute>20629410-71DF-3BDA-5D02-0D0CB4292E04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_obiektu1" id="E55BBA65-CF5D-CBD4-C967-236F82364E3D">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:15:55 UTC</createdTime>
+<generatorID>EE640F39-3B07-C311-8445-0C0AE40DD30C</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<referedAttribute>8E7709F6-27E6-51B7-E70C-DDC7CB7D20DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_sali" id="DF88CCA2-A717-7168-5E1A-D67F3EE52AC9">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:15:55 UTC</createdTime>
+<generatorID>EE640F39-3B07-C311-8445-0C0AE40DD30C</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<referedAttribute>3FB3A13B-52AF-20E5-C8BC-0E508F005BD4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCB3908A-4353-55C3-F425-1C42587E4DA1" name="Karnet PK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:05:37 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C576BB7-EC1D-FC93-1F57-1601733BAA5F</attributeRef>
+<attributeRef>C4D64AAE-77CA-38B5-145E-D511B36B5206</attributeRef>
+<attributeRef>E55BBA65-CF5D-CBD4-C967-236F82364E3D</attributeRef>
+<attributeRef>DF88CCA2-A717-7168-5E1A-D67F3EE52AC9</attributeRef>
+<attributeRef>C32C49C5-B787-85E1-68F4-C7D824D75EBE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

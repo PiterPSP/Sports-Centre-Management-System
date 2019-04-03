@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2B7D53E-9704-D1FF-ED27-AD3A295ADC1B" containerWithKeyObject="E2549D7D-17CB-B3C4-44E8-8C1168A97285" localFKIndex="F3EB594C-3FD3-F2EE-9753-AD0E0E52EFAE" name="Karnet_Zajecia_FK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>EE640F39-3B07-C311-8445-0C0AE40DD30C</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<referredTableLongName>Zajecia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9934F2DE-8E5D-A032-C73B-1875C0C60EFC</referredTableID>
+<keyObject>BC211113-D90B-A52E-4050-D3DD344CD87D</keyObject>
+<referredKeyID>BC211113-D90B-A52E-4050-D3DD344CD87D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_zajec,Obiekt_Sportowy_id_obiektu,Sala_Obiekt_Sportowy_id_obiektu,Sala_nr_sali</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

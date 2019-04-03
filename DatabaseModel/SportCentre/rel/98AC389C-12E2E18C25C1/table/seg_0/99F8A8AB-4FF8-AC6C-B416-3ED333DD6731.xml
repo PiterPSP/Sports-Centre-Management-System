@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99F8A8AB-4FF8-AC6C-B416-3ED333DD6731" name="Trener">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>B14B2A96-CF20-3333-E5B0-78550A7E533E</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PESEL" id="DBA3DE7F-6164-F265-20BB-05A61CDFC6AA">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>CE3603AA-907C-EF00-0AD5-CF475034CA8C</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5632A28-2223-88A9-73F2-0A3F7C231995" referredColumn="54F82D60-721F-81BE-A143-0A277D1381C9"/>
+</associations>
+</Column>
+<Column name="dyscyplina" id="47BD5EE2-911F-8911-D924-FFE394C94B12">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>92B58049-24CD-CC08-4BC8-A5114B71920E</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71C31172-7DEB-5E4D-801A-8E201FAFA25B" name="Trener_PK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>61B86AB8-3063-C51E-E516-9023218C8A80</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBA3DE7F-6164-F265-20BB-05A61CDFC6AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC5FBCBE-0CA0-04D7-1C63-E871A14CC550" name="Trener_Pracownik_FK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>A4075CD1-052B-E564-D33C-0809F6DED8D1</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBA3DE7F-6164-F265-20BB-05A61CDFC6AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0257B7E0-DAAF-EEC9-BDBF-FBC3C1017467" containerWithKeyObject="B1A29649-DCED-1D28-4267-23591BD51EFE" localFKIndex="EA96BF4B-0E71-53EE-9E39-0A03E9F2A57A" name="Relation_3_Uczestnik_FK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>A00049D5-C969-58F2-A92F-3B9F26764296</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<referredTableLongName>Uczestnik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D578ED7F-D45A-3C8A-8CFF-C531C4F9C42C</referredTableID>
+<keyObject>F55D14E2-4B5D-60E6-DC0F-F114B5188D49</keyObject>
+<referredKeyID>F55D14E2-4B5D-60E6-DC0F-F114B5188D49</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PESEL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

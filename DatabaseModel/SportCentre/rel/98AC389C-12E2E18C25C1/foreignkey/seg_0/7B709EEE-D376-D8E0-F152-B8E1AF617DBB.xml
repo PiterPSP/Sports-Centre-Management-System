@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B709EEE-D376-D8E0-F152-B8E1AF617DBB" containerWithKeyObject="9934F2DE-8E5D-A032-C73B-1875C0C60EFC" localFKIndex="B6D78756-A9E0-9D95-A0F0-EC70150B99C0" name="Zajecia_Trener_FK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 20:36:00 UTC</createdTime>
+<generatorID>D4332074-728A-A7D2-3C3A-5C1565029647</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<referredTableLongName>Trener</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>99F8A8AB-4FF8-AC6C-B416-3ED333DD6731</referredTableID>
+<keyObject>71C31172-7DEB-5E4D-801A-8E201FAFA25B</keyObject>
+<referredKeyID>71C31172-7DEB-5E4D-801A-8E201FAFA25B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PESEL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

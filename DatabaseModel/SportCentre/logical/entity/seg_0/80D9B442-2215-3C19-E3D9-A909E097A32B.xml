@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80D9B442-2215-3C19-E3D9-A909E097A32B" name="Sala">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:26:48 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_sali" id="60D0E667-475A-376C-E915-E024A6C08B3A">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:26:53 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_obiektu" id="7DC91733-C099-5E7F-E8BB-97B03665E75C">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:27:39 UTC</createdTime>
+<generatorID>0664D6C6-EA74-21BD-228F-580BA108525A</generatorID>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<referedAttribute>9C7C6E87-D363-AA23-D7BD-394F127113C0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9B4751D-0841-39E0-176C-2D79B485664F" name="Sala PK">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:27:39 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DC91733-C099-5E7F-E8BB-97B03665E75C</attributeRef>
+<attributeRef>60D0E667-475A-376C-E915-E024A6C08B3A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

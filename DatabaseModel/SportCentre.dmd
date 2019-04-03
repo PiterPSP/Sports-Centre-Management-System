@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SportCentre" id="2C2EFF76-82DD-DFAC-40A0-C37AADD9CEE4" version="3.5">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:06:04 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2C2EFF76-82DD-DFAC-40A0-C37AADD9CEE4</designId>
+</OSDM_Design>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2EE7B71C-DAF6-98A9-9572-3B1E7B06139B" mainViewID="57803491-950A-C2E1-C98B-230B83253A21">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:06:04 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

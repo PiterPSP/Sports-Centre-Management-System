@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="A00049D5-C969-58F2-A92F-3B9F26764296">
+<createdBy>kuba</createdBy>
+<createdTime>2018-11-21 19:40:08 UTC</createdTime>
+<ownerDesignName>SportCentre</ownerDesignName>
+<engineerTo>
+<item key="98AC389C-1CF5-FB2F-790C-12E2E18C25C1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>goszczą</nameOnSource>
+<nameOnTarget>bierze udzial w</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>92ABE17D-549A-5375-8539-B8A37930FBB2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>84E956AF-3BC9-0CBD-27AA-2176D4CE21B0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
